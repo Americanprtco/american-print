@@ -167,5 +167,11 @@ function submitOrder() {
 document.getElementById('search').addEventListener('input', e => render(e.target.value));
 render();
 </script>
+<form action="https://formspree.io/f/myeekynz" method="POST">
+  <input type="text" name="name" placeholder="Your name">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send Order</button>
+</form>
 </body>
 </html>
